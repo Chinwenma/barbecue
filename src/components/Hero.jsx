@@ -1,7 +1,17 @@
 export default function Hero(){
     return (
-        <h1>
-            
-        </h1>
+        <section>
+            <div>
+                <div>
+                    {/* forlogo */}
+                </div>
+                <div>
+                   { /*for navlinks */}
+                </div>
+                <button>
+                    {/*cat*/}
+                </button>
+            </div>
+        </section>
     );
 }
