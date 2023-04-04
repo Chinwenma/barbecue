@@ -1,14 +1,14 @@
 // import logo from './logo.svg';
+import Hero from './components/Hero';
+
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
+    <div className="header">
 
-
-      <h1 className="text-3xl font-bold underline text-orange-500">
-        Hello world!
-      </h1>
+<Hero />
+     
 
 
       {/* <header className="App-header">
