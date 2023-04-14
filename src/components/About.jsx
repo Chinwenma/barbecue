@@ -5,11 +5,11 @@ export default function About(){
 About Bigk Grills
 </h1>
 <div>
-    <div>
-
+    <div className="bg-white ml-10 w-24 h-24">
+<img src="./images/ceo.png" alt="ceo" />
     </div>
     <div>
-        
+
     </div>
 </div>
         </div>
