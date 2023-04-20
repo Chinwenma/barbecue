@@ -5,15 +5,12 @@ module.exports = {
   ],
   theme: {
     extend: {
-      screens: {
-        'sm': '375px',
-        // => @media (min-width: 640px) { ... }
-  
-        'md': '764px',
-        // => @media (min-width: 1024px) { ... }
-  
-        // 'lg': '1280px',
-        // => @media (min-width: 1280px) { ... }
+      sm:'480px',
+      md:'768px',
+      lg:'976px',
+      xl:'1440px',
+      fontFamily: {
+        'dm': ['DM Sans', 'sans-serif'],
       },
     },
   },

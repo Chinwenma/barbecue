@@ -1,6 +1,8 @@
 // import logo from './logo.svg';
 import Hero from './components/Hero';
 import About from './components/About';
+import Menu from './components/Menu';
+
 import './App.css';
 
 function App() {
@@ -9,6 +11,7 @@ function App() {
 
       <Hero />
       <About />
+      <Menu />
 
 
       {/* <header className="App-header">

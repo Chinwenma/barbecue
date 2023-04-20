@@ -1,6 +1,6 @@
 export default function About() {
     return (
-        <div className="bg-gradient-to-br from-orange-500 to-red-500 absolute h-96 w-full  rounded-none">
+        <div className="bg-gradient-to-br from-orange-500 to-red-500  h-96 w-full  rounded-none">
             <h1 className="font-butler font-bold  tracking-tighter text-white capitalize mx-24 md: text-5xl sm:items-left " >
                 About Bigk Grills
             </h1>
