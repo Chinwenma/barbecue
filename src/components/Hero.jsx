@@ -23,7 +23,7 @@ export default function Hero() {
             <div className="container flex flex-col md:flex-row items-center px-6 mx-auto mt-6 space-y-0 md:space-y-0">
                 <div className="flex flex-col mb-23 space-y-6 md:w-1/2 sm:1/2">
                     <p className="max-w-sm font-medium text-base  tracking-tighter text-orange-500 font-dm-sans md:text-left">BIGK Grills</p>
-                    <h1 className="max-w-md text-3xl font-bold  md:text-5xl md:text-left">Enjoy the special place of Bar and Grill</h1>r
+                    <h1 className="max-w-md text-3xl font-bold  md:text-5xl md:text-left">Enjoy the special place of Bar and Grill</h1>
                     <p className="max-w-sm  text-slate-400 md:text-left">We are  a fast food restaurant. That sells: : Turkey, Fish, Barbecue, Drinks, Shawarma. Located at Ikoyo Avenue, off shell road, Sapele, Delta state.</p>
                     <div class="flex justify-center md:justify-start w-36 bg-gradient-to-br from-orange-500 to-red-500 hover:from-orange-600 hover:to-red-600 
               shadow-lg rounded-md focus:outline-none ">
