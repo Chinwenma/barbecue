@@ -35,7 +35,7 @@ const NavBar = () => {
           classNames="slide-down"
           unmountOnExit
         >
-          <ul className="md:flex items-center justify-center space-x-10 font-semibold text-black cursor-pointer md:space-x-6 md:text-lg">
+          <ul className=" hidden md:flex items-center justify-center space-x-10 font-semibold text-black cursor-pointer md:space-x-6 md:text-lg">
             <li className="font-dm hover:text-orange-600 hover:border-b-2 hover:border-orange-500 transition-all duration-300">
               Home
             </li>
