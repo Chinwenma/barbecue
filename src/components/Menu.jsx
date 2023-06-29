@@ -9,12 +9,14 @@ export default function Menu() {
                     <li>Barbeque</li>
                     <li>Drinks</li>
                 </ul>
-                <div>
+                <div className="grid grid-cols-4">
                     <div>
                         <img src="./images/ceo.png" alt="" className="w-24 h-24" />
                         <p>Olusegun</p>
                         <p>2500</p>
                     </div>
+
+                   
                    
                     
                 </div>

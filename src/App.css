@@ -1,1 +1,29 @@
 
+.backGround{
+background-image: url(../src/assets/bg-img.png);
+ background-repeat: no-repeat;
+  background-position: center;
+   background-size: cover;
+}
+.slide-down-enter {
+   opacity: 0;
+   transform: translateY(-20px);
+ }
+ 
+ .slide-down-enter-active {
+   opacity: 1;
+   transform: translateY(0);
+   transition: opacity 300ms, transform 300ms;
+ }
+ 
+ .slide-down-exit {
+   opacity: 1;
+   transform: translateY(0);
+ }
+ 
+ .slide-down-exit-active {
+   opacity: 0;
+   transform: translateY(-20px);
+   transition: opacity 300ms, transform 300ms;
+ }
+ 
