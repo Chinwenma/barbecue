@@ -11,7 +11,6 @@ function App() {
         <NavBar />
         <Hero />
       </div>
-
       <About />
       <Menu />
     </>

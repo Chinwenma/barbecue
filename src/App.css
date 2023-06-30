@@ -4,7 +4,6 @@ background-image: url(../src/assets/bg-img.png);
  background-repeat: no-repeat;
   background-position: center;
    background-size: cover;
-   height: 100vh;
 }
 /* .slide-down-enter {
    opacity: 0;
