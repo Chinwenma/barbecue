@@ -12,14 +12,14 @@ const NavBar = () => {
   return (
 
     <nav className='app__navbar'>
-      <div className='app__navbar-logo'>
-        <img src={Logo} alt=" app logo"  className="w-12 h-12"/>
+      <div className='ml-6'>
+        <img src={Logo} alt=" app logo"  className=" w-12 h-12 md:w-20 md:h-20"/>
       </div>
       <ul className='app__navbar-links'>
-        <li className=' font-dm hover:text-orange-600 hover:border-b-2 hover:border-orange-500 transition-all duration-300'><a href='#home'>Home</a> </li>
-        <li className=' font-dm hover:text-orange-600 hover:border-b-2 hover:border-orange-500 transition-all duration-300'><a href='#about'>About</a> </li>
-        <li className=' font-dm hover:text-orange-600 hover:border-b-2 hover:border-orange-500 transition-all duration-300'><a href='#menu'>Menu</a> </li>
-        <li className=' font-dm hover:text-orange-600 hover:border-b-2 hover:border-orange-500 transition-all duration-300 '><a href='#contact'>Contact</a> </li>
+        <li className=' font-dm text-lg hover:text-orange-600 hover:border-b-2 hover:border-orange-500 transition-all duration-300'><a href='#home'>Home</a> </li>
+        <li className=' font-dm text-lg hover:text-orange-600 hover:border-b-2 hover:border-orange-500 transition-all duration-300'><a href='#about'>About</a> </li>
+        <li className=' font-dm text-lg hover:text-orange-600 hover:border-b-2 hover:border-orange-500 transition-all duration-300'><a href='#menu'>Menu</a> </li>
+        <li className=' font-dm text-lg hover:text-orange-600 hover:border-b-2 hover:border-orange-500 transition-all duration-300 '><a href='#contact'>Contact</a> </li>
               </ul>
                 
        <div className=" hidden md:flex justify-center md:justify-start w-34 bg-gradient-to-br from-orange-500 to-red-500 hover:from-orange-600 hover:to-red-600 shadow-lg rounded-md focus:outline-none"><a href="#home" className="p-3 px-6 pt-2 text-white text-lg rounded-none baseline md:block" hrefLang='/'>Order Now</a>
