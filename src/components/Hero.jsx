@@ -1,5 +1,5 @@
 import HeroImage from '../assets/Group 27.png';
-export default function Header() {
+export default function Hero() {
   return (
     <div >
 
