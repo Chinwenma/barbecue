@@ -47,7 +47,7 @@ const Gallery = () => {
 
   return (
     <div className="container mx-auto p-4">
-      <h1 className="flex justify-start text-2xl font-bold mb-4">Gallery</h1>
+      <h1 className="flex justify-start mb-4 text-3xl text-center leading-9 font-extrabold pl-6  sm:text-4xl  md:text-center lg:text-start sm:leading-10">Gallery</h1>
       <div className="flex flex-wrap">
         {galleryImages.slice(0, showMore ? galleryImages.length : 6).map((image, index) => (
           <div
@@ -60,7 +60,7 @@ const Gallery = () => {
       </div>
       {!showMore && (
         <button
-          className="block mx-auto mt-4 md:hidden bg-blue-500 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
+          className="block mx-auto mt-4 md:hidden w-36 bg-gradient-to-br from-orange-500 to-red-500 hover:from-orange-600 hover:to-red-600 font-bold py-2 px-4 rounded-lg text-white- focus:outline-none focus:shadow-outline"
           onClick={toggleShowMore}
         >
           See More
@@ -68,7 +68,7 @@ const Gallery = () => {
       )}
       {showMore && (
         <button
-          className="block mx-auto mt-4 md:hidden bg-blue-500 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
+          className="block mx-auto mt-4 md:hidden w-36 bg-gradient-to-br from-orange-500 to-red-500 hover:from-orange-600 hover:to-red-600 font-bold py-2 px-4 rounded-md focus:outline-none focus:shadow-outline"
           onClick={toggleShowLess}
         >
           See Less

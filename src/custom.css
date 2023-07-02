@@ -4,7 +4,7 @@
   --font-base: 'Cormorant Upright', serif;
   --font-alt: 'Open Sans', sans-serif;
   
-  --color-orange: #ff4500;
+  --color-orange: #f08a65;
   --color-black: #0C0C0C;
   --color-gray: #545454;
   --color-crimson: #F5EFDB;
@@ -141,6 +141,7 @@ a {
   }
   .app__navbar-smallscreen{
     display: flex;
+    
   }
   }
   

@@ -10,7 +10,7 @@ export default function Hero() {
           <p className="max-w-sm  text-slate-400 md:text-left md:text-2xl">We are  a fast food restaurant. That sells: : Turkey, Fish, Barbecue, Drinks, Shawarma. Located at Ikoyo Avenue, off shell road, Sapele, Delta state.</p>
           <div class="flex justify-center md:justify-start w-36 bg-gradient-to-br from-orange-500 to-red-500 hover:from-orange-600 hover:to-red-600
               shadow-lg rounded-md focus:outline-none ">
-            <a href="#home"
+            <a href="/"
               className=" p-3 px-6 pt-2 text-white  rounded-none baseline md:block">Order Now</a>
 
           </div>
